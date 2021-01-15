@@ -1,0 +1,104 @@
+body {
+    background-color: turquoise;
+}
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+#container header nav {
+    padding-top: 157px;
+}
+
+#container header nav ul {
+    padding-left: 0;
+    width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#container header nav ul li {
+    display:  inline-block;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+#container header nav ul li a {
+    font-family: monospace;
+    line-height: 32px;
+    display: inline-block;
+    height: 32px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: purple;
+    text-decoration: none;
+}
+
+header {
+    height: 200px;
+    background-color: red;
+}
+
+main {
+    font-family: monospace;
+    background-color: goldenrod;
+    padding: 20px; 
+    vertical-align: middle;   
+}
+
+#home p, #home h1 {
+    color:black;
+}
+
+#about p {
+    color: yellow;
+}
+
+#about h1 {
+    color: forestgreen;
+}
+
+#about h2 {
+    color: grey;
+}
+
+footer {
+    height: 50px;
+    background-color: red;
+}
+
+footer p {
+    font-family: monospace;
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#article {
+    width: 468px;
+    height: 958px;
+    background-color: khaki;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.projects {
+    width: 77px;
+    height: 200px;
+    background-color: cadetblue;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#projects-container {
+    line-height: 0px;
+}
